@@ -42,7 +42,7 @@ const Index = () => {
 
   // Render landing page
   return (
-    <div className="min-h-screen bg-gradient-dark">
+    <div className="min-h-screen bg-gradient-light">
       <Header onRoleSelect={handleRoleSelect} />
       <HeroSection onGetStarted={handleGetStarted} />
       <div id="role-selection">
