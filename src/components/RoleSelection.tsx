@@ -52,12 +52,12 @@ const RoleSelection = ({ onRoleSelect }: RoleSelectionProps) => {
   ];
 
   return (
-    <section className="py-20">
+    <section className="py-20 bg-gradient-dark">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold mb-4">Choose Your Role</h2>
+          <h2 className="text-4xl font-bold mb-4 text-luxury">Choose Your Experience</h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Select your account type to access the appropriate features and dashboard for your needs.
+            Select your exclusive access level to unlock premium features designed for your needs.
           </p>
         </div>
         

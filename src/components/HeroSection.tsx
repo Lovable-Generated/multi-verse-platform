@@ -14,31 +14,32 @@ const HeroSection = ({ onGetStarted }: HeroSectionProps) => {
   ];
 
   return (
-    <section className="bg-gradient-subtle py-20">
-      <div className="container mx-auto px-4 text-center">
+    <section className="bg-gradient-dark py-20 relative overflow-hidden">
+      <div className="absolute inset-0 bg-gradient-luxury opacity-10" />
+      <div className="container mx-auto px-4 text-center relative">
         <div className="max-w-4xl mx-auto">
-          <h1 className="text-5xl md:text-6xl font-bold mb-6 bg-gradient-primary bg-clip-text text-transparent">
-            Multi-Role Business Platform
+          <h1 className="text-5xl md:text-6xl font-bold mb-6 text-luxury">
+            Luxury Business Platform
           </h1>
           <p className="text-xl text-muted-foreground mb-8 max-w-2xl mx-auto">
-            A comprehensive platform connecting public users, businesses, and administrators 
-            in a secure, scalable environment with role-based access and streamlined workflows.
+            Experience unparalleled sophistication in business collaboration. 
+            A premium platform where elegance meets functionality.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
             <Button 
               size="lg" 
-              className="role-user text-lg px-8 py-6 transition-bounce" 
+              className="bg-gradient-primary text-primary-foreground hover:shadow-glow text-lg px-8 py-6 transition-all duration-300" 
               onClick={onGetStarted}
             >
-              Get Started <ArrowRight className="ml-2 w-5 h-5" />
+              Begin Your Journey <ArrowRight className="ml-2 w-5 h-5" />
             </Button>
             <Button 
               variant="outline" 
               size="lg" 
-              className="text-lg px-8 py-6 transition-smooth hover:bg-primary/5"
+              className="text-lg px-8 py-6 border-primary text-primary hover:bg-primary/10 transition-all duration-300"
             >
-              Learn More
+              Discover More
             </Button>
           </div>
 

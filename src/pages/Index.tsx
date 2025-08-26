@@ -42,7 +42,7 @@ const Index = () => {
 
   // Render landing page
   return (
-    <div className="min-h-screen bg-background">
+    <div className="min-h-screen bg-gradient-dark">
       <Header onRoleSelect={handleRoleSelect} />
       <HeroSection onGetStarted={handleGetStarted} />
       <div id="role-selection">
@@ -50,15 +50,15 @@ const Index = () => {
       </div>
       
       {/* Footer */}
-      <footer className="bg-card border-t py-12">
+      <footer className="bg-card/5 border-t border-border/20 py-12">
         <div className="container mx-auto px-4 text-center">
           <div className="max-w-2xl mx-auto">
-            <h3 className="text-xl font-semibold mb-4">Ready to Get Started?</h3>
+            <h3 className="text-xl font-semibold mb-4 text-luxury">Ready to Experience Luxury?</h3>
             <p className="text-muted-foreground mb-6">
-              Join our platform today and experience the future of business collaboration.
+              Join our exclusive platform today and elevate your business collaboration experience.
             </p>
             <p className="text-sm text-muted-foreground">
-              © 2024 BusinessHub. Built with modern web technologies for scalable business solutions.
+              © 2024 Luxury Business Platform. Crafted with excellence for sophisticated business solutions.
             </p>
           </div>
         </div>
