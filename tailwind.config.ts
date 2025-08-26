@@ -26,11 +26,24 @@ export default {
 				foreground: 'hsl(var(--foreground))',
 				primary: {
 					DEFAULT: 'hsl(var(--primary))',
+					light: 'hsl(var(--primary-light))',
+					dark: 'hsl(var(--primary-dark))',
 					foreground: 'hsl(var(--primary-foreground))'
 				},
 				secondary: {
 					DEFAULT: 'hsl(var(--secondary))',
+					light: 'hsl(var(--secondary-light))',
 					foreground: 'hsl(var(--secondary-foreground))'
+				},
+				business: {
+					DEFAULT: 'hsl(var(--business))',
+					light: 'hsl(var(--business-light))',
+					foreground: 'hsl(var(--business-foreground))'
+				},
+				admin: {
+					DEFAULT: 'hsl(var(--admin))',
+					light: 'hsl(var(--admin-light))',
+					foreground: 'hsl(var(--admin-foreground))'
 				},
 				destructive: {
 					DEFAULT: 'hsl(var(--destructive))',
